@@ -25,15 +25,26 @@ public class Main
 		+"AND-bool, and neurona, 3 or bool");
 		int opcion;
 		opcion=sc.nextInt();
-		if (){
+		if (opcion ==1){
+		    resultado =x1 == 1&x2 ==1;
 		    
-		} else if(){
 		    
-		}else if(){
+		} else if(opcion==2){
+		    double f=x1*w1*w2*w2+b;
+		    resultado = f>=0;
+		    
+		    
+		}else if(opcion==3){
+		    resultado = (x1+x2) >=1;
+		    
 		    
 		}else{
 		    
+		System.out.println("seleccion no valida");
+		    
 		}
+		System.out.println("El resultado de la operacion sale" + resultado);
+		
 		
 		
 	}
