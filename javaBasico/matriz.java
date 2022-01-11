@@ -26,7 +26,18 @@ class matriz{
 		   }
 		   
 		}
-		
+	void mostrarMatriz(){
+	    System.out.println("matriz");
+	    for(int i=0;i<n;i++){
+	        for(int j=0;j<n;j++){
+	               
+	        System.out.println(m[i][j]+"\t");
+	    }
+	    System.out.println();
+	    }  
+	}	
+
+    
 } 
 
 public class Main
@@ -34,8 +45,12 @@ public class Main
 	public static void main(String[] args) {
 		System.out.println("Hello World");
 		matriz m1=new   matriz();
+		matriz m2=new matriz();
 		m1.capture();
+		m2.capture();
 		
+m1.mostrarMatriz();
+m2.mostrarMatriz();
 	
 	    
 	}
