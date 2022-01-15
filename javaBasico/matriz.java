@@ -36,6 +36,21 @@ class matriz{
 	    System.out.println();
 	    }  
 	}	
+        void SumarMatrizes(Matriz matriz1, Matriz matriz2){
+        if(matriz1.n == matriz2.n){
+           n=matriz1.n;
+           m= new double[n][n];
+           for(int i=0;i<n;i++)
+           for(int j=0;j<n;j++){
+              m[i][j]= matriz1.m[i][j]+matriz2.m[i][j];
+              
+              
+           }
+        }
+        System.out.println("\n Resultado de la suma de matriz");
+    
+            
+        }
 
     
 } 
