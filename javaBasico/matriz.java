@@ -47,9 +47,11 @@ class matriz{
               
            }
         }
+        
         System.out.println("\n Resultado de la suma de matriz");
-    
-            
+        }
+        else{
+            System.out.println("\nLas matric0es no tienen la misma  dimension");
         }
 
     
@@ -66,6 +68,8 @@ public class Main
 		
 m1.mostrarMatriz();
 m2.mostrarMatriz();
+matriz m3=
+	
 	
 	    
 	}
