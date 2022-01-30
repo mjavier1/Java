@@ -1,0 +1,2 @@
+<role rolename="manager-gui"/>
+<user username="mj" password="datasql" roles="manager-gui"/> 
