@@ -14,6 +14,7 @@ import javax.servlet.http.HttpSession;
 /**
  *
  * @author mj
+ http://localhost:8080/web/Servlet1?parametro1=java
  */
 public class Servlet1 extends HttpServlet {
 
