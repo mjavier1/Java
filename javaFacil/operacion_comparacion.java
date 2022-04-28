@@ -19,9 +19,12 @@ public class Tipodedatos {
       int edadAngela=23;
       
       int rest;
-      boolean Soniguales
-        System.out.println("");
-      
+      //bool comparacion 
+      boolean Soniguales = edadJuan >= edadJuan;
+      boolean Soniguales1 = edadJuan <=edadJuan;
+        System.out.println(""+Soniguales);
+        System.out.println(""+Soniguales1);
+      //basico 
         
     // -, + , / ,*
     }
