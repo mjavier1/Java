@@ -50,7 +50,31 @@ public float alcance(){
        float x = (vox * tiempo);
        
     
-    return x;
+    return x;  
+    
+}
+
+public componetes [] calcComp(int t){
+  
+    
+    int elementos= (int) (t / 0.1);
+    componetes [] valores =  new componetes[elementos +1];
+    int indice =0;
+    float x= 0.0f;
+    float y= 0.0f;
+    for (float i = 0; i < t; i += 0.1) {
+        x = (float) (velocodadincial * Math.cos(Math.toRadians(grado)) *i);
+        y= (float) (velocodadincial * Math.sin(Math.toRadians(grado) * i)+ 0.5*-gravedad*Math.pow(i, 2));
+        
+       componetes obj = new componetes(i, x, y);
+       valores[indice]=obj;
+       indice ++;
+       
+        
+    }
+    return valores;
+    
+    
     
     
 }
